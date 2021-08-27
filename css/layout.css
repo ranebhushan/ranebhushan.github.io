@@ -22,7 +22,7 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
+body { background: #FFFFFF; }
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -94,8 +94,36 @@ header .social li {
    margin: 0 15px;
    padding: 0;
 }
-header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a { color: #FFFFFF; }
+header .social li a:hover { color: #FFFF00; }
+
+/* Github */
+header .social li a.gb { color: #FFFFFF; }
+header .social li a.gb:hover { color: #333; }
+
+/* Email */
+header .social li a.ml { color: #FFFFFF; }
+header .social li a.ml:hover { color: #00FF00; }
+
+/* Linkedin */
+header .social li a.ln { color: #FFFFFF; }
+header .social li a.ln:hover { color: #0E76A8; }
+
+/* Twitter */
+header .social li a.tw { color: #FFFFFF; }
+header .social li a.tw:hover { color: #00ACEE; }
+
+/* Facebook */
+header .social li a.fb { color: #FFFFFF; }
+header .social li a.fb:hover { color: #1877F2; }
+
+/* Google+ */
+header .social li a.gp { color: #FFFFFF; }
+header .social li a.gp:hover { color: #db4a39; }
+
+/* Google Scholar */
+header .social li a.gs { color: #FFFFFF; }
+header .social li a.gs:hover { color: #3cba54; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -181,6 +209,7 @@ ul#nav li a {
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #F06000; }
 
+ul#nav li.current a:hover { color: #F08000; }
 
 /* ------------------------------------------------------------------ */
 /* c. About Section
@@ -203,7 +232,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #ABABAB;
 }
 #about .profile-pic {
    position: relative;
@@ -933,8 +962,46 @@ footer {
    position: relative;
 }
 
-footer a, footer a:visited { color: #525252; }
-footer a:hover, footer a:focus { color: #fff; }
+footer a { color: #FFFAFA; }
+footer a:visited { color: #FFFAFA; }
+footer a:hover { color: #fff; }
+footer a:focus { color: #fff; }
+
+/* Facebook */
+footer .social-links li a.fb{color: #FFFAFA;} 
+footer .social-links li a.fb:hover{color: #1877F2;}
+
+/* Github */
+footer .social-links li a.gb { color: #FFFFFF; }
+footer .social-links li a.gb:hover { color: #333; }
+
+/* Email */
+footer .social-links li a.ml { color: #FFFFFF; }
+footer .social-links li a.ml:hover { color: #00FF00; }
+
+/* Linkedin */
+footer .social-links li a.ln { color: #FFFFFF; }
+footer .social-links li a.ln:hover { color: #0E76A8; }
+
+/* Twitter */
+footer .social-links li a.tw { color: #FFFFFF; }
+footer .social-links li a.tw:hover { color: #00ACEE; }
+
+/* Instagram */
+footer .social-links li a.in { color: #FFFFFF; }
+footer .social-links li a.in:hover { color: #8a3ab9; }
+
+/* Skype */
+footer .social-links li a.sk { color: #FFFFFF; }
+footer .social-links li a.sk:hover { color: #00aff0; }
+
+/* Google Scholar */
+footer .social-links li a.gs { color: #FFFFFF; }
+footer .social-links li a.gs:hover { color: #3cba54; }
+
+/* Google+ */
+footer .social-links li a.gp { color: #FFFFFF; }
+footer .social-links li a.gp:hover { color: #db4a39; }
 
 /* copyright */
 footer .copyright {
