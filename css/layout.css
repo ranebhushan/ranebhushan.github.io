@@ -22,7 +22,7 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #FFFFFF; }
+body { background: #0f0f0f; }
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -94,36 +94,53 @@ header .social li {
    margin: 0 15px;
    padding: 0;
 }
-header .social li a { color: #FFFFFF; }
-header .social li a:hover { color: #FFFF00; }
+
+header .social li a { color: #FFFFFF; 
+}
+header .social li a:hover { color: #FFFF00; 
+}
 
 /* Github */
-header .social li a.gb { color: #FFFFFF; }
-header .social li a.gb:hover { color: #333; }
+header .social li a.gb { color: #FFFFFF; 
+}
+header .social li a.gb:hover { color: #333; 
+}
 
 /* Email */
-header .social li a.ml { color: #FFFFFF; }
-header .social li a.ml:hover { color: #00FF00; }
+header .social li a.ml { color: #FFFFFF; 
+}
+header .social li a.ml:hover { color: #00FF00; 
+}
 
 /* Linkedin */
-header .social li a.ln { color: #FFFFFF; }
-header .social li a.ln:hover { color: #0E76A8; }
+header .social li a.ln { color: #FFFFFF; 
+}
+header .social li a.ln:hover { color: #0E76A8; 
+}
 
 /* Twitter */
-header .social li a.tw { color: #FFFFFF; }
-header .social li a.tw:hover { color: #00ACEE; }
+header .social li a.tw { color: #FFFFFF; 
+}
+header .social li a.tw:hover { color: #00ACEE; 
+}
 
 /* Facebook */
-header .social li a.fb { color: #FFFFFF; }
-header .social li a.fb:hover { color: #1877F2; }
+header .social li a.fb { color: #FFFFFF; 
+}
+header .social li a.fb:hover { color: #1877F2; 
+}
 
 /* Google+ */
-header .social li a.gp { color: #FFFFFF; }
-header .social li a.gp:hover { color: #db4a39; }
+header .social li a.gp { color: #FFFFFF; 
+}
+header .social li a.gp:hover { color: #db4a39; 
+}
 
 /* Google Scholar */
-header .social li a.gs { color: #FFFFFF; }
-header .social li a.gs:hover { color: #3cba54; }
+header .social li a.gs { color: #FFFFFF; 
+}
+header .social li a.gs:hover { color: #db4a39; 
+}
 
 /* scrolldown link */
 header .scrolldown a {
@@ -315,7 +332,7 @@ ul#nav li.current a:hover { color: #F08000; }
 /*----------------------------------------------*/
 
 .bars {
-	width: 95%;
+	width: 100%;
 	float: left;
 	padding: 0;
 	text-align: left;
@@ -355,30 +372,35 @@ ul#nav li.current a:hover { color: #F08000; }
 }
 
 .photoshop {
-  	width: 60%;
+  	width: 90%;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
+
 .illustrator {
-  	width: 55%;
+  	width: 80%;
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
+
 .wordpress {
-  	width: 50%;
+  	width: 80%;
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
 }
+
 .css {
   	width: 90%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
+
 .html5 {
   	width: 80%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
+
 .jquery {
   	width: 50%;
   	-moz-animation: jquery 2s ease;
@@ -440,7 +462,7 @@ ul#nav li.current a:hover { color: #F08000; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #ebeeee;
+   background: #EBEEEE;
    padding-top: 90px;
    padding-bottom: 60px;
 }
@@ -997,7 +1019,7 @@ footer .social-links li a.sk:hover { color: #00aff0; }
 
 /* Google Scholar */
 footer .social-links li a.gs { color: #FFFFFF; }
-footer .social-links li a.gs:hover { color: #3cba54; }
+footer .social-links li a.gs:hover { color: #db4a39; }
 
 /* Google+ */
 footer .social-links li a.gp { color: #FFFFFF; }
